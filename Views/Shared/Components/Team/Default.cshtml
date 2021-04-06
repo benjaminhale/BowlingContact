@@ -1,10 +1,9 @@
 ﻿@model IEnumerable<Teams>
-@ViewBag 
+
+@*This file is where the teams buttons are listed*@
 
 <a asp-action="Index" asp-controller="Home" asp-route-teamid="">Home</a>
 <br />
-
-<h1>Team Name</h1>
 
 @foreach (var x in Model)
 {

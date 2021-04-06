@@ -51,6 +51,7 @@ namespace BowlingContact
 
             app.UseAuthorization();
 
+            //List of endpoints to make the routes look better.
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute("teampagenum",
